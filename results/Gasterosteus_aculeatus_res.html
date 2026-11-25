@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+  <TITLE>Gasterosteus_aculeatus</TITLE>
+  <style>
+    div.prd {
+      width: 50%;
+      float: left;
+    }
+
+    div.par {
+      width: 50%;
+      float: right;
+    }
+
+    p.clear {
+      clear: both;
+    }
+
+    .head {
+      background-color: #FFE7C6
+    }
+
+    .psd {
+      color: blue
+    }
+
+    #prd {
+      border-style: solid hidden solid hidden;
+    }
+
+    #par {
+      border-style: solid hidden solid hidden;
+    }
+
+    tr:nth-child(even){background-color: #f2f2f2}
+  </style>
+</HEAD>
+
+<BODY>
+
+  <div class="prd">
+  <h1>Gasterosteus aculeatus</h1>
+  </div>
+
+  <div class="par">
+  <h4>COMPLETE = 2.5; MRE =    0.219; SMAE =    0.315; SMSE =    0.228 </h4>
+  </div>
+
+  <p class="clear"></p>
+
+  <div class="prd">
+  <h2>Data & predictions</h2>
+  <TABLE id="prd">
+    <TR  class="head"><TH>data</TH> <TH>prd</TH> <TH>RE</TH>  <TH>symbol</TH> <TH>units</TH> <TH>description</TH> </TR>
+    <TR><TD>12.9</TD> <TD>13.53</TD> <TD>0.04887</TD> <TD>ah</TD> <TD>d</TD> <TD>age at hatching</TD></TR>
+    <TR><TD>  4</TD> <TD>3.286</TD> <TD>0.1786</TD> <TD>thb</TD> <TD>d</TD> <TD>interval between hatching and birth</TD></TR>
+    <TR><TD> 22</TD> <TD>21.46</TD> <TD>0.02456</TD> <TD>aj</TD> <TD>d</TD> <TD>age at metamorphosis</TD></TR>
+    <TR><TD>122</TD> <TD>149.4</TD> <TD>0.2242</TD> <TD>ap</TD> <TD>d</TD> <TD>age at puberty</TD></TR>
+    <TR><TD>1825</TD> <TD>2249</TD> <TD>0.2325</TD> <TD>am</TD> <TD>d</TD> <TD>life span</TD></TR>
+    <TR><TD>0.43</TD> <TD>0.3897</TD> <TD>0.09372</TD> <TD>Lh</TD> <TD>cm</TD> <TD>length at hatching</TD></TR>
+    <TR><TD>0.58</TD> <TD>0.6041</TD> <TD>0.04152</TD> <TD>Lb</TD> <TD>cm</TD> <TD>length at birth</TD></TR>
+    <TR><TD>1.1</TD> <TD>0.8499</TD> <TD>0.2274</TD> <TD>Lj</TD> <TD>cm</TD> <TD>length at metamorphosis</TD></TR>
+    <TR><TD>3.03</TD> <TD>3.31</TD> <TD>0.09241</TD> <TD>Lp</TD> <TD>cm</TD> <TD>standard lenght at puberty for females</TD></TR>
+    <TR><TD>3.31</TD> <TD>3.277</TD> <TD>0.009912</TD> <TD>Lp_m</TD> <TD>cm</TD> <TD>standard lenght at puberty for males</TD></TR>
+    <TR><TD>6.188</TD> <TD>5.544</TD> <TD>0.1041</TD> <TD>Li</TD> <TD>cm</TD> <TD>ultimate standard length for females</TD></TR>
+    <TR><TD>5.551</TD> <TD>4.976</TD> <TD>0.1036</TD> <TD>Li_m</TD> <TD>cm</TD> <TD>ultimate standard length for males</TD></TR>
+    <TR><TD>0.0003</TD> <TD>0.0003766</TD> <TD>0.2554</TD> <TD>Wd0</TD> <TD>g</TD> <TD>initial (egg) dry weight</TD></TR>
+    <TR><TD>0.001112</TD> <TD>0.001508</TD> <TD>0.3559</TD> <TD>Wwb</TD> <TD>g</TD> <TD>wet weight at birth</TD></TR>
+    <TR><TD>0.4295</TD> <TD>0.5558</TD> <TD>0.2942</TD> <TD>Wwp</TD> <TD>g</TD> <TD>wet weight at puberty</TD></TR>
+    <TR><TD>0.5599</TD> <TD>0.5394</TD> <TD>0.03649</TD> <TD>Wwp_m</TD> <TD>g</TD> <TD>wet weight at puberty for males</TD></TR>
+    <TR><TD>3.658</TD> <TD>2.611</TD> <TD>0.2862</TD> <TD>Wwi</TD> <TD>g</TD> <TD>ultimate wet weight</TD></TR>
+    <TR><TD>0.574</TD> <TD>0.4746</TD> <TD>0.1732</TD> <TD>Wwp_f1</TD> <TD>g</TD> <TD>wet weight at puberty at f1</TD></TR>
+    <TR><TD>0.666</TD> <TD>0.5676</TD> <TD>0.1478</TD> <TD>Wwp_f2</TD> <TD>g</TD> <TD>wet weight at puberty at f2</TD></TR>
+    <TR><TD>2.74</TD> <TD>3.405</TD> <TD>0.2429</TD> <TD>Ri</TD> <TD>#/d</TD> <TD>maximum reprod rate</TD></TR>
+    <TR><TD colspan="2">see figure</TD> <TD>0.05952</TD> <TD>tL_WrigWoot2004</TD> <TD colspan="2">time since hatching <font color="blue"><i>vs.</i></font> standard length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.06247</TD> <TD>tL_JoneHyne1950</TD> <TD colspan="2">time <font color="blue"><i>vs.</i></font> standard length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.2238</TD> <TD>tL_Leloutre2016</TD> <TD colspan="2">time since hatching <font color="blue"><i>vs.</i></font> standard length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.04464</TD> <TD>tL7_f1</TD> <TD colspan="2">time since birth <font color="blue"><i>vs.</i></font> standard length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.05044</TD> <TD>tL7_f2</TD> <TD colspan="2">time since birth <font color="blue"><i>vs.</i></font> standard length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.02719</TD> <TD>tL19_f1</TD> <TD colspan="2">time since birth <font color="blue"><i>vs.</i></font> standard length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.03455</TD> <TD>tL19_f2</TD> <TD colspan="2">time since birth <font color="blue"><i>vs.</i></font> standard length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.0287</TD> <TD>tL15_f1</TD> <TD colspan="2">time since birth <font color="blue"><i>vs.</i></font> standard length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.06268</TD> <TD>tL15_f2</TD> <TD colspan="2">time since birth <font color="blue"><i>vs.</i></font> standard length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.08583</TD> <TD>tL15_f3</TD> <TD colspan="2">time since birth <font color="blue"><i>vs.</i></font> standard length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.08359</TD> <TD>tL15_f4</TD> <TD colspan="2">time since birth <font color="blue"><i>vs.</i></font> standard length</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.2087</TD> <TD>LN_Leloutre2016</TD> <TD colspan="2">standard length <font color="blue"><i>vs.</i></font> fecundity</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.2434</TD> <TD>LtN_Wootton1973</TD> <TD colspan="2">total length <font color="blue"><i>vs.</i></font> fecundity</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.2514</TD> <TD>WwJO_Brafield10</TD> <TD colspan="2">wet weight <font color="blue"><i>vs.</i></font> O_2 consumption</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.153</TD> <TD>TJO</TD> <TD colspan="2">temperature <font color="blue"><i>vs.</i></font> O_2 consumption</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.2695</TD> <TD>DOJO</TD> <TD colspan="2">oxygen saturation <font color="blue"><i>vs.</i></font> O_2 consumption</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.176</TD> <TD>WwJX_Wootton19</TD> <TD colspan="2">wet weight <font color="blue"><i>vs.</i></font> feeding rate</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.2157</TD> <TD>WwJX_Wootton12</TD> <TD colspan="2">wet weight <font color="blue"><i>vs.</i></font> feeding rate</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.1894</TD> <TD>WwJX_Wootton7</TD> <TD colspan="2">wet weight <font color="blue"><i>vs.</i></font> feeding rate</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.357</TD> <TD>Tah</TD> <TD colspan="2">temperature <font color="blue"><i>vs.</i></font> age at hatching</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.104</TD> <TD>DOah</TD> <TD colspan="2">DO saturation <font color="blue"><i>vs.</i></font> age at hatching</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.9896</TD> <TD>DOS1</TD> <TD colspan="2">days since fertilization <font color="blue"><i>vs.</i></font> survival fraction</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.9918</TD> <TD>DOS2</TD> <TD colspan="2">days since fertilization <font color="blue"><i>vs.</i></font> survival fraction</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.9943</TD> <TD>DOS3</TD> <TD colspan="2">days since fertilization <font color="blue"><i>vs.</i></font> survival fraction</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.9966</TD> <TD>DOS4</TD> <TD colspan="2">days since fertilization <font color="blue"><i>vs.</i></font> survival fraction</TD>
+    <TR><TD colspan="2">see figure</TD> <TD>0.9989</TD> <TD>DOS5</TD> <TD colspan="2">days since fertilization <font color="blue"><i>vs.</i></font> survival fraction</TD>
+    <TR class="psd"><TD>0.02</TD> <TD>0.0289</TD> <TD>0.4451</TD> <TD>psd.v</TD> <TD>cm/d</TD> <TD>energy conductance</TD></TR>
+    <TR class="psd"><TD> 18</TD> <TD>169.5</TD> <TD>8.418</TD> <TD>psd.p_M</TD> <TD>J/d.cm^3</TD> <TD>vol-spec som maint</TD></TR>
+    <TR class="psd"><TD>0.002</TD> <TD>0.002</TD> <TD>  0</TD> <TD>psd.k_J</TD> <TD>1/d</TD> <TD>maturity maint rate coefficient</TD></TR>
+    <TR class="psd"><TD>0.3</TD> <TD>0.06194</TD> <TD>0.7935</TD> <TD>psd.k</TD> <TD>-</TD> <TD>maintenance ratio</TD></TR>
+    <TR class="psd"><TD>0.8</TD> <TD>0.8803</TD> <TD>0.1003</TD> <TD>psd.kap</TD> <TD>-</TD> <TD>allocation fraction to soma</TD></TR>
+    <TR class="psd"><TD>0.8</TD> <TD>0.7969</TD> <TD>0.003853</TD> <TD>psd.kap_G</TD> <TD>-</TD> <TD>growth efficiency</TD></TR>
+    <TR class="psd"><TD>0.95</TD> <TD>0.95</TD> <TD>  0</TD> <TD>psd.kap_R</TD> <TD>-</TD> <TD>reproduction efficiency</TD></TR>
+    <TR class="psd"><TD>0.01</TD> <TD>0.001949</TD> <TD>0.8051</TD> <TD>psd.s_s</TD> <TD>-</TD> <TD>supply stress</TD></TR>
+  </TABLE>
+  </div>
+
+  <div class="par">
+  <h2>abj parameters at 20.0&deg;C</h2>
+  <TABLE id="par">
+    <TR class="head"><TH>symbol</TH> <TH>units</TH> <TH>value</TH>  <TH>free</TH> <TH>description</TH> </TR>
+    <TR><TD>T_ref</TD> <TD>K</TD> <TD>293.1</TD> <TD>0</TD> <TD>Reference temperature</TD></TR>
+    <TR><TD>T_A</TD> <TD>K</TD> <TD>3218</TD> <TD>1</TD> <TD>Arrhenius temperature</TD></TR>
+    <TR><TD>z</TD> <TD>-</TD> <TD>0.6654</TD> <TD>1</TD> <TD>zoom factor</TD></TR>
+    <TR><TD>F_m</TD> <TD>l/d.cm^2</TD> <TD>6.5</TD> <TD>0</TD> <TD>{F_m}, max spec searching rate</TD></TR>
+    <TR><TD>kap_X</TD> <TD>-</TD> <TD>0.2303</TD> <TD>1</TD> <TD>digestion efficiency of food to reserve</TD></TR>
+    <TR><TD>kap_P</TD> <TD>-</TD> <TD>0.1</TD> <TD>0</TD> <TD>faecation efficiency of food to faeces</TD></TR>
+    <TR><TD>v</TD> <TD>cm/d</TD> <TD>0.0289</TD> <TD>1</TD> <TD>energy conductance</TD></TR>
+    <TR><TD>kap</TD> <TD>-</TD> <TD>0.8803</TD> <TD>1</TD> <TD>allocation fraction to soma</TD></TR>
+    <TR><TD>kap_R</TD> <TD>-</TD> <TD>0.95</TD> <TD>0</TD> <TD>reproduction efficiency</TD></TR>
+    <TR><TD>p_M</TD> <TD>J/d.cm^3</TD> <TD>169.5</TD> <TD>1</TD> <TD>[p_M], vol-spec somatic maint</TD></TR>
+    <TR><TD>p_T</TD> <TD>J/d.cm^2</TD> <TD>  0</TD> <TD>0</TD> <TD>{p_T}, surf-spec somatic maint</TD></TR>
+    <TR><TD>k_J</TD> <TD>1/d</TD> <TD>0.002</TD> <TD>0</TD> <TD>maturity maint rate coefficient</TD></TR>
+    <TR><TD>E_G</TD> <TD>J/cm^3</TD> <TD>5250</TD> <TD>1</TD> <TD>[E_G], spec cost for structure</TD></TR>
+    <TR><TD>E_Hb</TD> <TD>J</TD> <TD>0.6441</TD> <TD>1</TD> <TD>maturity at birth</TD></TR>
+    <TR><TD>E_Hj</TD> <TD>J</TD> <TD>4.492</TD> <TD>1</TD> <TD>maturity at metam</TD></TR>
+    <TR><TD>E_Hp</TD> <TD>J</TD> <TD>497.7</TD> <TD>1</TD> <TD>maturity at puberty</TD></TR>
+    <TR><TD>h_a</TD> <TD>1/d^2</TD> <TD>8.625e-09</TD> <TD>1</TD> <TD>Weibull aging acceleration</TD></TR>
+    <TR><TD>s_G</TD> <TD>-</TD> <TD>0.0001</TD> <TD>0</TD> <TD>Gompertz stress coefficient</TD></TR>
+    <TR><TD>DOa</TD> <TD>-</TD> <TD>1.368</TD> <TD>1</TD> <TD>alpha</TD></TR>
+    <TR><TD>DOb</TD> <TD>-</TD> <TD>5.702</TD> <TD>1</TD> <TD>beta</TD></TR>
+    <TR><TD>DOcrit</TD> <TD>-</TD> <TD>11.97</TD> <TD>1</TD> <TD>critical oxygen saturation</TD></TR>
+    <TR><TD>E_Hh</TD> <TD>J</TD> <TD>0.3724</TD> <TD>1</TD> <TD>maturity at hatch</TD></TR>
+    <TR><TD>E_Hp_m</TD> <TD>J</TD> <TD>521.1</TD> <TD>1</TD> <TD>maturity at puberty for males</TD></TR>
+    <TR><TD>K</TD> <TD>-</TD> <TD>1.203</TD> <TD>1</TD> <TD>correction factor</TD></TR>
+    <TR><TD>T_AH</TD> <TD>K</TD> <TD>4.576e+04</TD> <TD>1</TD> <TD>Arrhenius temperature for upper boundary</TD></TR>
+    <TR><TD>T_AL</TD> <TD>K</TD> <TD>6252</TD> <TD>1</TD> <TD>Arrhenius temperature for lower boundary</TD></TR>
+    <TR><TD>T_H</TD> <TD>K</TD> <TD>298.1</TD> <TD>0</TD> <TD>upper boundary</TD></TR>
+    <TR><TD>T_L</TD> <TD>K</TD> <TD>276.1</TD> <TD>0</TD> <TD>lower boundary</TD></TR>
+    <TR><TD>del_M</TD> <TD>-</TD> <TD>0.2013</TD> <TD>1</TD> <TD>shape coefficient for standard length</TD></TR>
+    <TR><TD>del_Me</TD> <TD>-</TD> <TD>0.1539</TD> <TD>1</TD> <TD>shape coefficient for standard lengthof embryos</TD></TR>
+    <TR><TD>del_T</TD> <TD>-</TD> <TD>0.2251</TD> <TD>1</TD> <TD>shape coefficient for total length</TD></TR>
+    <TR><TD>f</TD> <TD>-</TD> <TD>0.9112</TD> <TD>1</TD> <TD>scaled functional response for 0-var data</TD></TR>
+    <TR><TD>f_1</TD> <TD>-</TD> <TD>1.51</TD> <TD>1</TD> <TD>scaled functional response for WWp_f1</TD></TR>
+    <TR><TD>f_2</TD> <TD>-</TD> <TD>2.143</TD> <TD>1</TD> <TD>scaled functional response for WWp_f2</TD></TR>
+    <TR><TD>f_DOJO</TD> <TD>-</TD> <TD>0.9991</TD> <TD>1</TD> <TD>scaled functional response for DOJO data</TD></TR>
+    <TR><TD>f_Leloutre2016</TD> <TD>-</TD> <TD>1.064</TD> <TD>1</TD> <TD>scaled functional response for Leloutre2016 data</TD></TR>
+    <TR><TD>f_LtN_Wootton1973</TD> <TD>-</TD> <TD>0.6427</TD> <TD>1</TD> <TD>scaled functional response for Wootton1973 data</TD></TR>
+    <TR><TD>f_TJO</TD> <TD>-</TD> <TD>1.804</TD> <TD>1</TD> <TD>scaled functional response for TJO data</TD></TR>
+    <TR><TD>f_WwJO_Andrea20</TD> <TD>-</TD> <TD>1.044</TD> <TD>1</TD> <TD>scaled functional response for WwJO data from Andrea2017</TD></TR>
+    <TR><TD>f_WwJO_Brafield10</TD> <TD>-</TD> <TD>0.8158</TD> <TD>1</TD> <TD>scaled functional response for WwJO data from Brafield1976</TD></TR>
+    <TR><TD>f_WwJX</TD> <TD>-</TD> <TD>  1</TD> <TD>0</TD> <TD>scaled functional response for WwJX data</TD></TR>
+    <TR><TD>f_WwJX_Wootton</TD> <TD>-</TD> <TD>  1</TD> <TD>0</TD> <TD>scaled functional response for WwJX data</TD></TR>
+    <TR><TD>f_tL15_f1</TD> <TD>-</TD> <TD>0.3389</TD> <TD>1</TD> <TD>scaled functional response for Leloutre2016 data</TD></TR>
+    <TR><TD>f_tL15_f2</TD> <TD>-</TD> <TD>0.5557</TD> <TD>1</TD> <TD>scaled functional response for Leloutre2016 data</TD></TR>
+    <TR><TD>f_tL15_f3</TD> <TD>-</TD> <TD>0.9181</TD> <TD>1</TD> <TD>scaled functional response for Leloutre2016 data</TD></TR>
+    <TR><TD>f_tL15_f4</TD> <TD>-</TD> <TD>1.119</TD> <TD>1</TD> <TD>scaled functional response for Leloutre2016 data</TD></TR>
+    <TR><TD>f_tL19_f1</TD> <TD>-</TD> <TD>0.8471</TD> <TD>1</TD> <TD>scaled functional response for Leloutre2016 data</TD></TR>
+    <TR><TD>f_tL19_f2</TD> <TD>-</TD> <TD>0.9454</TD> <TD>1</TD> <TD>scaled functional response for Leloutre2016 data</TD></TR>
+    <TR><TD>f_tL7_f1</TD> <TD>-</TD> <TD>0.6105</TD> <TD>1</TD> <TD>scaled functional response for Leloutre2016 data</TD></TR>
+    <TR><TD>f_tL7_f2</TD> <TD>-</TD> <TD>2.067</TD> <TD>1</TD> <TD>scaled functional response for Leloutre2016 data</TD></TR>
+    <TR><TD>f_tL_JoneHyne1950</TD> <TD>-</TD> <TD>1.207</TD> <TD>1</TD> <TD>scaled functional response for JoneHyne1950 data</TD></TR>
+    <TR><TD>f_tL_WrigWoot2004</TD> <TD>-</TD> <TD>1.175</TD> <TD>1</TD> <TD>scaled functional response for WrigWoot2004 data</TD></TR>
+    <TR><TD>memb</TD> <TD>-</TD> <TD>0.06301</TD> <TD>1</TD> <TD>embryo mortality</TD></TR>
+    <TR><TD>t0</TD> <TD>d</TD> <TD>40.27</TD> <TD>1</TD> <TD>time since hatch at start if experiment</TD></TR>
+    <TR><TD>z_m</TD> <TD>-</TD> <TD>0.5997</TD> <TD>1</TD> <TD>zoom factor for males</TD></TR>
+  </TABLE>
+  </div>
+
+</BODY>
+</HTML>
